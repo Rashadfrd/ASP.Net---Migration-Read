@@ -104,5 +104,9 @@ H:\Rashad\Code\ASP.Net\ASP.Net---Front-to-Back\FrontToBack\obj\Debug\netcoreapp3
 H:\Rashad\Code\ASP.Net\ASP.Net---Front-to-Back\FrontToBack\obj\Debug\netcoreapp3.1\FrontToBack.genruntimeconfig.cache
 H:\Rashad\Code\ASP.Net\ASP.Net---Front-to-Back\FrontToBack\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 H:\Rashad\Code\ASP.Net\ASP.Net---Front-to-Back\FrontToBack\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
-H:\Rashad\Code\ASP.Net\ASP.Net---Front-to-Back\FrontToBack\bin\Debug\netcoreapp3.1\products.json
 H:\Rashad\Code\ASP.Net\ASP.Net---Front-to-Back\FrontToBack\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+H:\Rashad\Code\ASP.Net\ASP.Net---Front-to-Back\FrontToBack\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
+H:\Rashad\Code\ASP.Net\ASP.Net---Front-to-Back\FrontToBack\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
+H:\Rashad\Code\ASP.Net\ASP.Net---Front-to-Back\FrontToBack\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateProduct.cshtml.g.cs
+H:\Rashad\Code\ASP.Net\ASP.Net---Front-to-Back\FrontToBack\bin\Debug\netcoreapp3.1\Files\product.json
+H:\Rashad\Code\ASP.Net\ASP.Net---Front-to-Back\FrontToBack\obj\Debug\netcoreapp3.1\Razor\Views\Admin\GetProduct.cshtml.g.cs

@@ -8,54 +8,19 @@ namespace FrontToBack.Controllers
 {
     public class HomeController : Controller
     {
+
+        List<Product> products;
+
+        public HomeController()
+        {
+            using (StreamReader sr = new StreamReader("H:\\Rashad\\Code\\ASP.Net\\ASP.Net---Front-to-Back\\FrontToBack\\Files\\product.json"))
+            {
+                products = JsonConvert.DeserializeObject<List<Product>>(sr.ReadToEnd());
+            }
+        }
         public IActionResult Index()
         {
-            return View();
+            return View(products);
         }
-        //public void CreateProduct()
-        //{
-        //    Product prod1 = new Product
-        //    {
-        //        Id = 1,
-        //        Name = "Fusion",
-        //        Price = 100,
-        //        ImageUrl = "p50.jpg"
-        //    };
-
-        //    Product prod2 = new Product
-        //    {
-        //        Id = 2,
-        //        Name = "Fusion",
-        //        Price = 100,
-        //        ImageUrl = "p50.jpg"
-        //    };
-
-        //    Product prod3 = new Product
-        //    {
-        //        Id = 3,
-        //        Name = "Fusion",
-        //        Price = 100,
-        //        ImageUrl = "p50.jpg"
-        //    };
-
-        //    Product prod4 = new Product
-        //    {
-        //        Id = 4,
-        //        Name = "Fusion",
-        //        Price = 100,
-        //        ImageUrl = "p50.jpg"
-        //    };
-
-        //    List<Product> products = new List<Product>();
-        //    products.Add(prod1);
-        //    products.Add(prod2);
-        //    products.Add(prod3);
-        //    products.Add(prod4);
-
-        //    using (StreamWriter sw = new StreamWriter("H:\\Rashad\\Code\\ASP.Net\\ASP.Net---Front-to-Back\\FrontToBack\\products.json"))
-        //    {
-        //        sw.Write(JsonConvert.SerializeObject(products));
-        //    }
-        //}
     }
 }
